@@ -15,3 +15,20 @@ function needsAdultTicket(arr, ___) {
   }
 };
 needsAdultTicket(studentList);
+
+
+// ___________________________-
+
+// Bhaj's Crossword Helper
+// Bhaj is working on an app to help him solve crossword puzzles. The app will need the ability to check the last letter of a word.
+//
+// For example: The function would take 'birdie' as an input, and return 'e', as that is the last letter.
+
+import { randomWord } from 'cross.words';
+function lastLetter(str, ___) {
+  let endLetter = str.length - 1;
+  return str[endLetter];
+};
+console.log(randomWord);
+console.log(lastLetter(randomWord));
+___
